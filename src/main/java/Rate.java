@@ -7,7 +7,6 @@ public class Rate {
         this.value = value;
     }
 
-
     public String getCurrency() {
         return Currency;
     }

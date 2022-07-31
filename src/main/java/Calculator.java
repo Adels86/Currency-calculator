@@ -10,7 +10,6 @@ public class Calculator {
 
     public static final String XML_SOURCE = "source.xml";
 
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();
@@ -25,7 +24,6 @@ public class Calculator {
         String target = scanner.nextLine();
 
         System.out.println(calculator.calc(amount, target) + " " + target);
-
     }
 
     public double calc(double amount, String target){
