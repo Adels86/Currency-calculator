@@ -23,7 +23,7 @@ public class Calculator {
         System.out.println("enter target currency code" );
         String target = scanner.nextLine();
 
-        System.out.println(calculator.calc(amount, target) + " " + target);
+        System.out.println(calculator.calc(amount, target) + " " + target.toUpperCase());
     }
 
     public double calc(double amount, String target){
